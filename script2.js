@@ -24,3 +24,11 @@ console.log(numbers)
 numbers.clear()
 console.log(numbers)
 console.groupEnd()
+
+// 2.2
+
+const arr = [1,6,9,4,9,1,5,6]
+console.group(2.2)
+console.log(arr)
+const arrSet = [...new Set(arr)]
+console.log(arrSet)
