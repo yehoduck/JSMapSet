@@ -14,3 +14,5 @@ numbers.forEach(num => {
 console.log(sum)
 numbers.delete(2)
 console.log(numbers)
+numbers.clear()
+console.log(numbers)
