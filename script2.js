@@ -12,3 +12,5 @@ numbers.forEach(num => {
     sum += num
 })
 console.log(sum)
+numbers.delete(2)
+console.log(numbers)
